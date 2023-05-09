@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/Users/Shinra/dev/scala-sandbox/}root/products {file:/Users/Shinra/dev/scala-sandbox/}root/test:products, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / products, Test / products[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/Shinra/dev/scala-sandbox/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Shinra/dev/scala-sandbox/src/main/scala/Parse.scala:7:15: object JsonFormat is not a member of package <root>[0m
+[0m[[0m[31merror[0m] [0m[0mimport _root_.JsonFormat.castListJsonFormat[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/Shinra/dev/scala-sandbox/src/main/scala/Parse.scala:114:58: Cannot find JsonReader or JsonFormat type class for CastArray[0m
+[0m[[0m[31merror[0m] [0m[0m  val output = json.JsonParser(filteredCredits).convertTo[CastArray][0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Apr 24, 2023 7:43:28 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
